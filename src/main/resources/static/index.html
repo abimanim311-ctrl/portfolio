@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abimani M | Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">ABIMANI M</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-ms-auto navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container text-center py-5 mt-5">
+        <h1 class="display-3 fw-bold text-white">Abimani M</h1>
+        <h2 class="h4 text-secondary mb-4">Full Stack Developer</h2>
+        <p class="lead w-75 mx-auto">
+            Motivated and detail-oriented Full Stack Developer with hands-on experience building scalable web applications using Java, Spring Boot, and modern frontend technologies. With a strong foundation in clean coding and responsive design, I am passionate about engineering robust solutions and am actively seeking to contribute to a high-impact, real-time development environment.
+        </p>
+    </header>
+
+    <section id="projects" class="container py-5 border-top border-secondary">
+        <h3 class="mb-4 fw-bold">Featured Projects</h3>
+        <div class="row g-4">
+            
+            <div class="col-md-6">
+                <div class="card bg-black text-light border border-secondary h-100 p-3">
+                    <h5 class="fw-bold">Learning Management System (LMS)</h5>
+                    <p class="text-secondary small">HTML, CSS, JS, React, Python, Flask, MySQL</p>
+                    <p>Designed a scalable platform featuring Role-Based Access Control for administrators, instructors, and students. Managed complex relational data schemas and optimized frontend state for seamless content delivery and progress tracking.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card bg-black text-light border border-secondary h-100 p-3">
+                    <h5 class="fw-bold">Sustainability Tracker</h5>
+                    <p class="text-secondary small">HTML, CSS, JS, Bootstrap, Java, Spring Boot, MySQL</p>
+                    <p>Built a gamified tracking application that aggregates real-world actions into environmental metrics (CO2 equivalents). Integrated third-party APIs for geographic data and applied mathematical modeling for sustainability calculations.</p>
+                </div>
+            </div>
+
+             <div class="col-md-6">
+                <div class="card bg-black text-light border border-secondary h-100 p-3">
+                    <h5 class="fw-bold">Personalized Learning Tracker</h5>
+                    <p class="text-secondary small">HTML, CSS, JS, Bootstrap, Python, Flask, MySQL</p>
+                    <p>Developed adaptive recommendation logic that dynamically suggests resources based on quiz performance. Built data-driven dashboards translating raw activity logs into visual metrics.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card bg-black text-light border border-secondary h-100 p-3">
+                    <h5 class="fw-bold">Online Exam System</h5>
+                    <p class="text-secondary small">Java, Spring Boot, MySQL</p>
+                    <p>Developed RESTful APIs for user management and exam handling, implementing secure login protocols and an automated result evaluation system.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5 border-top border-secondary">
+        <h3 class="mb-4 fw-bold">Get In Touch</h3>
+        <form id="contactForm" class="w-50 mx-auto">
+            <div class="mb-3">
+                <input type="text" class="form-control bg-dark text-light border-secondary" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control bg-dark text-light border-secondary" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control bg-dark text-light border-secondary" id="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-light w-100 fw-bold">Send Message</button>
+            <div id="formResponse" class="mt-3 text-center"></div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
